@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
 
   config.vm.box = "ubuntu/groovy64"
-  cofig.vm.hostname = "machine1"
+  config.vm.hostname = "machine1"
   config.vm.network "private_network", ip: "192.168.0.66"
 
   # Provider-specific configuration so you can fine-tune various
